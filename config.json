@@ -1,0 +1,15 @@
+{
+  "bb_period": 20,
+  "bb_std": 2,
+  "dma_touch_threshold_pct": 1.0,
+  "indicators_enabled": {
+    "bb_weekly": true,
+    "dma_200": true,
+    "dma_50": true,
+    "rsi_weekly": true
+  },
+  "price_change_pct": 2.0,
+  "rsi_overbought": 70,
+  "rsi_oversold": 30,
+  "rsi_period": 14
+}
