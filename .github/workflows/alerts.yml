@@ -43,7 +43,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python alert_bot.py
-
+  
       - name: Commit state / watchlist / config changes
         run: |
           git config user.name  "github-actions[bot]"
@@ -51,7 +51,18 @@ jobs:
           git add state.json watchlist.txt config.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Nothing to commit."
-          else
-            git commit -m "auto: state update [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "auto: state update [skip ci]"
+          # Retry push with rebase to handle concurrent commits
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "Push failed on attempt $i — pulling with rebase and retrying..."
+            git pull --rebase origin main || git rebase --abort
+            sleep $((i * 3))
+          done
+          echo "Push failed after 5 attempts"
+          exit 1
