@@ -1,13 +1,5 @@
 name: Stock Alerts
 
-# Runs every 30 minutes, every day. The Python script itself
-# checks Indian market hours (Mon–Fri 9:15–15:15 IST) before
-# generating price/technical alerts. This way, Telegram commands
-# (/add, /remove, etc.) get processed anytime within ~30 minutes.
-#
-# IMPORTANT: For unlimited free Actions minutes, keep this repo PUBLIC.
-# Private repos get only 2,000 minutes/month on free tier.
-
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -15,6 +7,9 @@ on:
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: stock-alerts
@@ -43,7 +38,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python alert_bot.py
-  
+
       - name: Commit state / watchlist / config changes
         run: |
           git config user.name  "github-actions[bot]"
@@ -54,13 +49,13 @@ jobs:
             exit 0
           fi
           git commit -m "auto: state update [skip ci]"
-          # Retry push with rebase to handle concurrent commits
           for i in 1 2 3 4 5; do
             if git push; then
               echo "Push succeeded on attempt $i"
               exit 0
             fi
             echo "Push failed on attempt $i — pulling with rebase and retrying..."
+            git fetch origin main
             git pull --rebase origin main || git rebase --abort
             sleep $((i * 3))
           done
