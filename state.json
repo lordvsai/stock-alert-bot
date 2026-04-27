@@ -1,1 +1,275 @@
-{}
+{
+  "stocks": {
+    "AARTIIND": {
+      "pct_move": "2026-04-27"
+    },
+    "ACE": {},
+    "ADANIGREEN": {
+      "bb_w_upper": "2026-W18"
+    },
+    "ADANIPORTS": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27"
+    },
+    "AETHER": {},
+    "AJMERA": {},
+    "ALKEM": {
+      "pct_move": "2026-04-27"
+    },
+    "ALLCARGO": {},
+    "ANGELONE": {
+      "bb_w_upper": "2026-W18"
+    },
+    "APARINDS": {},
+    "APLAPOLLO": {},
+    "ASKAUTOLTD": {},
+    "ATUL": {},
+    "AXISBANK": {
+      "dma_50": "2026-04-27",
+      "pct_move": "2026-04-27"
+    },
+    "BAJAJ-AUTO": {},
+    "BAJFINANCE": {
+      "dma_50": "2026-04-27"
+    },
+    "BALKRISIND": {},
+    "BANKBARODA": {
+      "dma_200": "2026-04-27"
+    },
+    "BELRISE": {},
+    "BHARTIARTL": {},
+    "BIOCON": {},
+    "BLUESTARCO": {
+      "pct_move": "2026-04-27"
+    },
+    "BSE": {
+      "bb_w_upper": "2026-W18",
+      "rsi_w_high": "2026-W18"
+    },
+    "CAMS": {},
+    "CARERATING": {
+      "dma_50": "2026-04-27"
+    },
+    "CGCL": {},
+    "CGPOWER": {
+      "bb_w_upper": "2026-W18"
+    },
+    "CHOLAFIN": {},
+    "CIPLA": {},
+    "CMSINFO": {},
+    "COFORGE": {
+      "pct_move": "2026-04-27"
+    },
+    "CRAMC": {},
+    "CRISIL": {},
+    "DCMSHRIRAM": {},
+    "DEEPAKNTR": {},
+    "DIXON": {},
+    "DRREDDY": {},
+    "DYNAMATECH": {
+      "bb_w_upper": "2026-W18"
+    },
+    "EIDPARRY": {
+      "dma_50": "2026-04-27"
+    },
+    "EPL": {
+      "pct_move": "2026-04-27"
+    },
+    "ESCORTS": {
+      "dma_50": "2026-04-27"
+    },
+    "ETERNAL": {},
+    "FDC": {},
+    "FEDERALBNK": {},
+    "GALAXYSURF": {},
+    "GODIGIT": {},
+    "GOLD1": {
+      "dma_50": "2026-04-27"
+    },
+    "HCG": {},
+    "HCLTECH": {},
+    "HDFCAMC": {},
+    "HDFCBANK": {},
+    "HEROMOTOCO": {},
+    "HIMATSEIDE": {
+      "pct_move": "2026-04-27"
+    },
+    "HINDALCO": {
+      "bb_w_upper": "2026-W18",
+      "rsi_w_high": "2026-W18"
+    },
+    "HINDZINC": {
+      "pct_move": "2026-04-27"
+    },
+    "ICICIBANK": {
+      "dma_50": "2026-04-27"
+    },
+    "ICICIGI": {},
+    "IEX": {
+      "dma_50": "2026-04-27"
+    },
+    "IGL": {},
+    "INDHOTEL": {
+      "dma_50": "2026-04-27"
+    },
+    "INDIGO": {
+      "dma_50": "2026-04-27"
+    },
+    "INDIGRID": {
+      "bb_w_upper": "2026-W18"
+    },
+    "INDRAMEDCO": {},
+    "INFY": {},
+    "INTERARCH": {},
+    "JAMNAAUTO": {},
+    "JIOFIN": {},
+    "JSWENERGY": {
+      "bb_w_upper": "2026-W18"
+    },
+    "JSWINFRA": {
+      "dma_200": "2026-04-27"
+    },
+    "JUBLFOOD": {},
+    "JUBLINGREA": {},
+    "KFINTECH": {},
+    "KOTAKBANK": {},
+    "KSB": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27",
+      "rsi_w_high": "2026-W18"
+    },
+    "LAURUSLABS": {},
+    "LICI": {
+      "dma_50": "2026-04-27"
+    },
+    "LT": {},
+    "M&M": {},
+    "MAFANG": {},
+    "MAHKTECH": {
+      "dma_50": "2026-04-27"
+    },
+    "MAHLOG": {},
+    "MANAPPURAM": {},
+    "MANINDS": {
+      "bb_w_upper": "2026-W18"
+    },
+    "MAPMYINDIA": {
+      "pct_move": "2026-04-27",
+      "rsi_w_low": "2026-W18"
+    },
+    "MARUTI": {},
+    "MCX": {},
+    "MEDIASSIST": {
+      "dma_50": "2026-04-27",
+      "pct_move": "2026-04-27"
+    },
+    "MEESHO": {
+      "pct_move": "2026-04-27",
+      "rsi_w_high": "2026-W18"
+    },
+    "MON100": {
+      "bb_w_upper": "2026-W18",
+      "rsi_w_high": "2026-W18"
+    },
+    "MOTILALOFS": {},
+    "MUTHOOTFIN": {},
+    "NAM-INDIA": {},
+    "NATCOPHARM": {},
+    "NH": {},
+    "NUVOCO": {},
+    "NYKAA": {},
+    "OIL": {
+      "dma_50": "2026-04-27"
+    },
+    "ONGC": {},
+    "PERSISTENT": {},
+    "PIIND": {},
+    "POLYCAB": {},
+    "PPLPHARMA": {},
+    "PRAJIND": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27"
+    },
+    "PRINCEPIPE": {},
+    "RAIN": {
+      "pct_move": "2026-04-27"
+    },
+    "RAMCOIND": {},
+    "RATEGAIN": {},
+    "RELIANCE": {},
+    "RELIGARE": {
+      "pct_move": "2026-04-27"
+    },
+    "SANDHAR": {
+      "pct_move": "2026-04-27"
+    },
+    "SFL": {},
+    "SHAKTIPUMP": {
+      "pct_move": "2026-04-27"
+    },
+    "SHRIRAMFIN": {
+      "pct_move": "2026-04-27"
+    },
+    "SILVERIETF": {
+      "dma_50": "2026-04-27",
+      "pct_move": "2026-04-27"
+    },
+    "SKFINDIA": {},
+    "SKIPPER": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27"
+    },
+    "SMLMAH": {},
+    "SONACOMS": {
+      "pct_move": "2026-04-27"
+    },
+    "SSWL": {},
+    "SUBROS": {
+      "pct_move": "2026-04-27"
+    },
+    "SUNDARMFIN": {},
+    "SUPRAJIT": {
+      "dma_50": "2026-04-27"
+    },
+    "SURYODAY": {},
+    "SUVEN": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27"
+    },
+    "TARIL": {
+      "pct_move": "2026-04-27"
+    },
+    "TATASTEEL": {},
+    "TDPOWERSYS": {
+      "bb_w_upper": "2026-W18",
+      "rsi_w_high": "2026-W18"
+    },
+    "TECHNOE": {
+      "pct_move": "2026-04-27"
+    },
+    "TMPV": {},
+    "TTKPRESTIG": {},
+    "TVSSCS": {},
+    "UNIONBANK": {},
+    "VBL": {},
+    "VOLTAMP": {
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27",
+      "rsi_w_high": "2026-W18"
+    },
+    "VOLTAS": {
+      "pct_move": "2026-04-27"
+    },
+    "WELCORP": {
+      "bb_w_upper": "2026-W18",
+      "rsi_w_high": "2026-W18"
+    },
+    "WINDLAS": {
+      "dma_200": "2026-04-27"
+    },
+    "YATHARTH": {},
+    "ZAGGLE": {},
+    "ZYDUSLIFE": {},
+    "ZYDUSWELL": {}
+  }
+}
