@@ -20,11 +20,15 @@
     "ALKEM": {
       "pct_move": "2026-04-27"
     },
-    "ALLCARGO": {},
+    "ALLCARGO": {
+      "pct_move": "2026-04-27"
+    },
     "ANGELONE": {
       "bb_w_upper": "2026-W18"
     },
-    "APARINDS": {},
+    "APARINDS": {
+      "pct_move": "2026-04-27"
+    },
     "APLAPOLLO": {},
     "ASKAUTOLTD": {},
     "ATUL": {},
@@ -44,7 +48,9 @@
       "rsi_w_high": "2026-W18"
     },
     "BHARTIARTL": {},
-    "BIOCON": {},
+    "BIOCON": {
+      "pct_move": "2026-04-27"
+    },
     "BLUESTARCO": {
       "pct_move": "2026-04-27"
     },
@@ -55,6 +61,7 @@
     },
     "CAMS": {},
     "CARERATING": {
+      "dma_200": "2026-04-27",
       "dma_50": "2026-04-27"
     },
     "CGCL": {},
@@ -127,7 +134,8 @@
     },
     "ICICIGI": {},
     "IEX": {
-      "dma_50": "2026-04-27"
+      "dma_50": "2026-04-27",
+      "pct_move": "2026-04-27"
     },
     "IGL": {},
     "INDHOTEL": {
@@ -147,15 +155,20 @@
       "pct_move": "2026-04-27"
     },
     "JAMNAAUTO": {},
-    "JIOFIN": {},
+    "JIOFIN": {
+      "pct_move": "2026-04-27"
+    },
     "JSWENERGY": {
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-27"
     },
     "JSWINFRA": {
-      "dma_200": "2026-04-27"
+      "dma_200": "2026-04-27",
+      "pct_move": "2026-04-27"
     },
-    "JUBLFOOD": {},
+    "JUBLFOOD": {
+      "dma_50": "2026-04-27"
+    },
     "JUBLINGREA": {},
     "KFINTECH": {},
     "KOTAKBANK": {},
@@ -190,6 +203,7 @@
     },
     "MARUTI": {},
     "MCX": {
+      "pct_move": "2026-04-27",
       "rsi_w_high": "2026-W18"
     },
     "MEDIASSIST": {
@@ -238,12 +252,18 @@
       "pct_move": "2026-04-27"
     },
     "RAMCOIND": {},
-    "RATEGAIN": {},
-    "RELIANCE": {},
+    "RATEGAIN": {
+      "dma_200": "2026-04-27"
+    },
+    "RELIANCE": {
+      "pct_move": "2026-04-27"
+    },
     "RELIGARE": {
+      "dma_50": "2026-04-27",
       "pct_move": "2026-04-27"
     },
     "SANDHAR": {
+      "dma_200": "2026-04-27",
       "dma_50": "2026-04-27",
       "pct_move": "2026-04-27"
     },
@@ -267,6 +287,7 @@
     },
     "SMLMAH": {},
     "SONACOMS": {
+      "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-27"
     },
     "SSWL": {},
@@ -291,6 +312,7 @@
     "TATASTEEL": {},
     "TDPOWERSYS": {
       "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-27",
       "rsi_w_high": "2026-W18"
     },
     "TECHNOE": {
