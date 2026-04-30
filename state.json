@@ -7,7 +7,8 @@
     },
     "ACE": {},
     "ADANIGREEN": {
-      "bb_w_upper": "2026-W18"
+      "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-30"
     },
     "ADANIPORTS": {
       "bb_w_upper": "2026-W18",
@@ -16,7 +17,9 @@
     "AETHER": {
       "pct_move": "2026-04-27"
     },
-    "AJMERA": {},
+    "AJMERA": {
+      "dma_50": "2026-04-30"
+    },
     "ALKEM": {
       "dma_200": "2026-04-28",
       "dma_50": "2026-04-28",
@@ -31,34 +34,41 @@
     "APARINDS": {
       "pct_move": "2026-04-29"
     },
-    "APLAPOLLO": {},
-    "ASKAUTOLTD": {},
+    "APLAPOLLO": {
+      "pct_move": "2026-04-30"
+    },
+    "ASKAUTOLTD": {
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
+    },
     "ATUL": {
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-28"
     },
     "AXISBANK": {
       "dma_50": "2026-04-29",
-      "pct_move": "2026-04-28"
+      "pct_move": "2026-04-30"
     },
     "BAJAJ-AUTO": {
-      "dma_50": "2026-04-28"
+      "dma_50": "2026-04-28",
+      "pct_move": "2026-04-30"
     },
     "BAJFINANCE": {
       "dma_50": "2026-04-29"
     },
     "BALKRISIND": {
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "BANKBARODA": {
-      "dma_200": "2026-04-29"
+      "dma_200": "2026-04-29",
+      "pct_move": "2026-04-30"
     },
     "BELRISE": {
       "bb_w_upper": "2026-W18",
       "rsi_w_high": "2026-W18"
     },
     "BHARTIARTL": {
-      "dma_50": "2026-04-29",
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-29"
     },
     "BIOCON": {
@@ -66,14 +76,16 @@
     },
     "BLUESTARCO": {
       "dma_200": "2026-04-29",
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "BSE": {
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-28",
       "rsi_w_high": "2026-W18"
     },
-    "CAMS": {},
+    "CAMS": {
+      "pct_move": "2026-04-30"
+    },
     "CARERATING": {
       "bb_w_upper": "2026-W18",
       "dma_200": "2026-04-28",
@@ -81,14 +93,14 @@
       "pct_move": "2026-04-29"
     },
     "CGCL": {
-      "dma_200": "2026-04-29"
+      "dma_200": "2026-04-30"
     },
     "CGPOWER": {
       "bb_w_upper": "2026-W18"
     },
     "CHOLAFIN": {
       "dma_50": "2026-04-29",
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "CIPLA": {},
     "CMSINFO": {
@@ -106,7 +118,8 @@
       "dma_50": "2026-04-28"
     },
     "DCMSHRIRAM": {
-      "dma_200": "2026-04-28"
+      "dma_200": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "DEEPAKNTR": {
       "dma_200": "2026-04-28",
@@ -123,27 +136,33 @@
       "pct_move": "2026-04-28"
     },
     "EIDPARRY": {
-      "dma_50": "2026-04-29"
+      "dma_50": "2026-04-29",
+      "pct_move": "2026-04-30"
     },
     "EPL": {
       "pct_move": "2026-04-27"
     },
     "ESCORTS": {
-      "dma_50": "2026-04-28"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "ETERNAL": {
-      "dma_50": "2026-04-28",
-      "pct_move": "2026-04-28"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "FDC": {},
     "FEDERALBNK": {
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-29"
     },
     "GALAXYSURF": {
       "dma_50": "2026-04-28",
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
-    "GODIGIT": {},
+    "GODIGIT": {
+      "bb_w_lower": "2026-W18",
+      "pct_move": "2026-04-30"
+    },
     "GOLD1": {
       "dma_50": "2026-04-27"
     },
@@ -153,7 +172,9 @@
       "rsi_w_low": "2026-W18"
     },
     "HDFCAMC": {},
-    "HDFCBANK": {},
+    "HDFCBANK": {
+      "rsi_w_low": "2026-W18"
+    },
     "HEROMOTOCO": {
       "pct_move": "2026-04-27"
     },
@@ -163,27 +184,28 @@
     },
     "HINDALCO": {
       "bb_w_upper": "2026-W18",
+      "pct_move": "2026-04-30",
       "rsi_w_high": "2026-W18"
     },
     "HINDZINC": {
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "ICICIBANK": {
       "dma_50": "2026-04-27"
     },
     "ICICIGI": {},
     "IEX": {
-      "dma_50": "2026-04-27",
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-27"
     },
     "IGL": {},
     "INDHOTEL": {
       "dma_50": "2026-04-28",
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "INDIGO": {
       "dma_50": "2026-04-28",
-      "pct_move": "2026-04-28"
+      "pct_move": "2026-04-30"
     },
     "INDIGRID": {
       "bb_w_upper": "2026-W18"
@@ -199,9 +221,12 @@
       "dma_200": "2026-04-29",
       "pct_move": "2026-04-27"
     },
-    "JAMNAAUTO": {},
+    "JAMNAAUTO": {
+      "pct_move": "2026-04-30"
+    },
     "JIOFIN": {
-      "pct_move": "2026-04-27"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "JSWENERGY": {
       "bb_w_upper": "2026-W18",
@@ -209,14 +234,16 @@
     },
     "JSWINFRA": {
       "dma_200": "2026-04-28",
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "JUBLFOOD": {
-      "dma_50": "2026-04-29"
+      "dma_50": "2026-04-29",
+      "pct_move": "2026-04-30"
     },
     "JUBLINGREA": {},
     "KFINTECH": {
-      "dma_50": "2026-04-28"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "KOTAKBANK": {},
     "KSB": {
@@ -228,16 +255,18 @@
     "LICI": {
       "dma_50": "2026-04-29"
     },
-    "LT": {},
+    "LT": {
+      "pct_move": "2026-04-30"
+    },
     "M&M": {
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "MAFANG": {
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-28"
     },
     "MAHKTECH": {
-      "dma_50": "2026-04-28"
+      "dma_50": "2026-04-30"
     },
     "MAHLOG": {
       "pct_move": "2026-04-27"
@@ -263,10 +292,10 @@
     },
     "MEDIASSIST": {
       "dma_50": "2026-04-28",
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "MEESHO": {
-      "pct_move": "2026-04-27",
+      "pct_move": "2026-04-30",
       "rsi_w_high": "2026-W18"
     },
     "MON100": {
@@ -275,14 +304,17 @@
       "rsi_w_high": "2026-W18"
     },
     "MOTILALOFS": {},
-    "MUTHOOTFIN": {},
+    "MUTHOOTFIN": {
+      "dma_50": "2026-04-30"
+    },
     "NAM-INDIA": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-28"
+      "pct_move": "2026-04-30"
     },
     "NATCOPHARM": {},
     "NH": {
       "dma_200": "2026-04-27",
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-27"
     },
     "NUVOCO": {},
@@ -298,26 +330,29 @@
       "rsi_w_high": "2026-W18"
     },
     "PERSISTENT": {},
-    "PIIND": {},
+    "PIIND": {
+      "pct_move": "2026-04-30"
+    },
     "POLYCAB": {},
     "PPLPHARMA": {
       "pct_move": "2026-04-28"
     },
     "PRAJIND": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "PRINCEPIPE": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "RAIN": {
       "dma_200": "2026-04-29",
-      "pct_move": "2026-04-27"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "RAMCOIND": {},
     "RATEGAIN": {
-      "dma_200": "2026-04-28",
+      "dma_200": "2026-04-30",
       "pct_move": "2026-04-28"
     },
     "RELIANCE": {
@@ -326,22 +361,22 @@
       "pct_move": "2026-04-29"
     },
     "RELIGARE": {
-      "dma_50": "2026-04-27",
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-27"
     },
     "SANDHAR": {
       "dma_200": "2026-04-29",
-      "dma_50": "2026-04-27",
+      "dma_50": "2026-04-30",
       "pct_move": "2026-04-27"
     },
     "SFL": {
       "pct_move": "2026-04-28"
     },
     "SHAKTIPUMP": {
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "SHRIRAMFIN": {
-      "pct_move": "2026-04-28"
+      "pct_move": "2026-04-30"
     },
     "SILVERIETF": {
       "dma_50": "2026-04-27",
@@ -352,7 +387,7 @@
     },
     "SKIPPER": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-27"
+      "pct_move": "2026-04-30"
     },
     "SMLMAH": {},
     "SONACOMS": {
@@ -360,13 +395,15 @@
       "pct_move": "2026-04-27"
     },
     "SSWL": {
-      "dma_200": "2026-04-29",
+      "dma_200": "2026-04-30",
       "pct_move": "2026-04-29"
     },
     "SUBROS": {
       "pct_move": "2026-04-27"
     },
-    "SUNDARMFIN": {},
+    "SUNDARMFIN": {
+      "pct_move": "2026-04-30"
+    },
     "SUPRAJIT": {
       "dma_50": "2026-04-29"
     },
@@ -382,7 +419,9 @@
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-29"
     },
-    "TATASTEEL": {},
+    "TATASTEEL": {
+      "pct_move": "2026-04-30"
+    },
     "TDPOWERSYS": {
       "bb_w_upper": "2026-W18",
       "pct_move": "2026-04-29",
@@ -390,11 +429,15 @@
     },
     "TECHNOE": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
-    "TMPV": {},
+    "TMPV": {
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
+    },
     "TTKPRESTIG": {
-      "pct_move": "2026-04-28"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "TVSSCS": {
       "dma_200": "2026-04-29",
@@ -413,7 +456,8 @@
       "rsi_w_high": "2026-W18"
     },
     "VOLTAS": {
-      "pct_move": "2026-04-27"
+      "dma_50": "2026-04-30",
+      "pct_move": "2026-04-30"
     },
     "WELCORP": {
       "bb_w_upper": "2026-W18",
@@ -421,14 +465,14 @@
       "rsi_w_high": "2026-W18"
     },
     "WINDLAS": {
-      "dma_200": "2026-04-29"
+      "dma_200": "2026-04-30"
     },
     "YATHARTH": {
       "bb_w_upper": "2026-W18",
-      "pct_move": "2026-04-28"
+      "pct_move": "2026-04-30"
     },
     "ZAGGLE": {
-      "pct_move": "2026-04-29"
+      "pct_move": "2026-04-30"
     },
     "ZYDUSLIFE": {
       "bb_w_upper": "2026-W18",
