@@ -61,7 +61,7 @@ jobs:
               print("❌ Token INVALID:", e)
           EOF
 
-- name: Debug secrets
+      - name: Debug secrets
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
