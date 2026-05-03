@@ -2,14 +2,22 @@ name: Stock Alerts
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '45 3 * * 1-5'
+    - cron: '15 4 * * 1-5'
+    - cron: '45 4 * * 1-5'
+    - cron: '15 5 * * 1-5'
+    - cron: '45 5 * * 1-5'
+    - cron: '15 6 * * 1-5'
+    - cron: '45 6 * * 1-5'
+    - cron: '15 7 * * 1-5'
+    - cron: '45 7 * * 1-5'
+    - cron: '15 8 * * 1-5'
+    - cron: '45 8 * * 1-5'
+    - cron: '15 9 * * 1-5'
   workflow_dispatch: {}
 
 permissions:
   contents: write
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: stock-alerts
@@ -28,22 +36,42 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Test token before running
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'EOF'
+          import os, urllib.request, json
+          token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+          chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+          print(f"Token length: {len(token)}")
+          print(f"Token starts with: {token[:10]}...")
+          print(f"Chat ID: {chat_id}")
+          url = f"https://api.telegram.org/bot{token}/getMe"
+          try:
+              res = urllib.request.urlopen(url)
+              print("✅ Token VALID:", json.loads(res.read())["result"]["username"])
+          except Exception as e:
+              print("❌ Token INVALID:", e)
+          EOF
+
       - name: Run alert bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python alert_bot.py
 
-      - name: Commit state / watchlist / config changes
+      - name: Commit state changes
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json watchlist.txt config.json 2>/dev/null || true
+          git add prev_prices.txt stocks.txt 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Nothing to commit."
             exit 0
@@ -54,7 +82,7 @@ jobs:
               echo "Push succeeded on attempt $i"
               exit 0
             fi
-            echo "Push failed on attempt $i — pulling with rebase and retrying..."
+            echo "Push failed on attempt $i — retrying..."
             git fetch origin main
             git pull --rebase origin main || git rebase --abort
             sleep $((i * 3))
